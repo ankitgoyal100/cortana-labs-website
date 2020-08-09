@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
+// import Footer from '../components/layout/Footer';
 
 const LayoutDefault = ({ children }) => (
   <>
@@ -8,8 +8,8 @@ const LayoutDefault = ({ children }) => (
     <main className="site-content">
       {children}
     </main>
-    <Footer />
+    { /* <Footer /> */ }
   </>
 );
 
-export default LayoutDefault;  
+export default LayoutDefault;
